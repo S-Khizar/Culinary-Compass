@@ -7,11 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+<<<<<<< HEAD
+=======
+.env
+
+>>>>>>> 20bfb16 (finally the issue is resolved)
 node_modules
 dist
 dist-ssr
 *.local
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 20bfb16 (finally the issue is resolved)
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

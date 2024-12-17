@@ -1,8 +1,20 @@
 {
+<<<<<<< HEAD
     "installCommand": "npm install --legacy-peer-deps",
     "version": 2,
     
     "routes": [
       { "src": "/(.*)", "dest": "/" }
+=======
+    "version":2,
+    "builds": [
+      { "src": "*.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/"
+        }
+>>>>>>> 20bfb16 (finally the issue is resolved)
     ]
   }
