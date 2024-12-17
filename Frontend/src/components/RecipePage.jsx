@@ -20,14 +20,14 @@ const RecipePage = () => {
     const fetchRecipes = async () => {
       if (debouncedQuery.length === 0) {
         try {
-          const response = await axios.get('http://localhost:3000/api/rec');
+          const response = await axios.get(`${import.meta.env.VITE_BACKEND_LINK}/api/rec`);
           setFilteredRecipes(response.data);
         } catch (error) {
           console.error('Error fetching all recipes:', error);
         }
       } else { 
         try {
-          const response = await axios.get(`http://localhost:3000/api/rec?search=${debouncedQuery}`);
+          const response = await axios.get(`${import.meta.env.VITE_BACKEND_LINK}/api/rec?search=${debouncedQuery}`);
           setFilteredRecipes(response.data);
         } catch (error) {
           console.error('Error fetching filtered recipes:', error);

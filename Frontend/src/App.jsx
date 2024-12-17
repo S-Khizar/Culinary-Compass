@@ -14,7 +14,7 @@ import axios from 'axios'
 const App = () => {
   const[recipe,setRecipes] = useState([]);
   useEffect(()=>{
-    axios.get("http://localhost:3000/api/recipe")
+    axios.get(`${import.meta.env.VITE_BACKEND_LINK}/api/recipe`)
     .then((response)=>{
       setRecipes(response.data);
     })
