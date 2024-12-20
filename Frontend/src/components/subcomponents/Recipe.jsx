@@ -55,7 +55,7 @@ const Recipe = ({recipes}) => {
             })
           }
       </section>
-      <h3>Recommended Recipes</h3>
+      <h3 className='mb-14'>Recommended Recipes</h3>
     </article>
   )
 }

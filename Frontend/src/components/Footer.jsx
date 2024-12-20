@@ -5,7 +5,7 @@ import {FaFacebook,FaInstagram,FaLinkedin,FaYoutube} from 'react-icons/fa'
 const Footer = () => {
   return (
     <>
-      <footer className='flex justify-center items-center p-5 border-t border-gray-500 gap-6'>
+      <footer className='sticky bottom-0 w-full flex justify-center items-center p-5 border-t border-gray-500 gap-6'>
         <Link className='text-blue-500 text-2xl' to=''><FaFacebook/></Link>
         <Link className='text-red-500 text-2xl' to=''><FaYoutube/></Link>
         <Link className='text-blue-500 text-2xl' to=''><FaLinkedin/></Link>

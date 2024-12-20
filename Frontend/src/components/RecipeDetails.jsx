@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-const RecipeDetails = ({ recipes }) => {
+const RecipeDetails = ({ recipes ,surpriseRecipe }) => {
   const { id } = useParams();
   const [recipeDetails, setRecipeDetails] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -9,7 +9,8 @@ const RecipeDetails = ({ recipes }) => {
 
   useEffect(() => {
     try {
-      const filteredRecipe = recipes.find((recipe) => recipe.id === id);
+      const filteredRecipe = recipes.find((recipe) => recipe.id === id) ||  
+      surpriseRecipe.find((recipe) => recipe.id === id);
       if (filteredRecipe) {
         setRecipeDetails(filteredRecipe);
       } else {

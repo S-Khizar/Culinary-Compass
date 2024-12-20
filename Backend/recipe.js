@@ -1,4 +1,29 @@
 const recipe = [
+    {
+        "id": "613b8b1c28a914001b7d28b0",
+        "title": "Chicken Shawarma",
+        "steps": [
+            "Mix chicken pieces with olive oil, garlic, cumin, paprika, turmeric, and lemon juice.",
+            "Marinate for at least 1 hour in the refrigerator.",
+            "Grill or pan-fry the chicken until fully cooked and slightly charred.",
+            "Slice the chicken into thin strips.",
+            "Serve the chicken in pita bread with garlic sauce, tomatoes, and cucumbers."
+        ],
+        "image": "/chicken-shawarma.avif",
+        "description": "A flavorful Middle Eastern dish with perfectly spiced grilled chicken served in pita bread.",
+        "ingredients": [
+            "500g chicken",
+            "2 tablespoons olive oil",
+            "Garlic",
+            "1 tablespoon cumin",
+            "1 tablespoon paprika",
+            "1 tablespoon turmeric",
+            "1 lemon",
+            "Pita bread"
+        ],
+        "cookingTime": "25 minutes"
+    }
+    ,
 
     {
         "id": "613b8b1c28a914001b7d28a2",
@@ -133,44 +158,44 @@ const recipe = [
         "id": "613b8b1c28a914001b7d28a7",
         "title": "Lemon Garlic Salmon",
         "steps": [
-          "Preheat the oven to 200°C (400°F).",
-          "Place salmon fillets on a baking tray and season with lemon juice, garlic, salt, and pepper.",
-          "Bake for 12-15 minutes until the salmon is cooked through.",
-          "Serve with a side of roasted vegetables or salad."
+            "Preheat the oven to 200°C (400°F).",
+            "Place salmon fillets on a baking tray and season with lemon juice, garlic, salt, and pepper.",
+            "Bake for 12-15 minutes until the salmon is cooked through.",
+            "Serve with a side of roasted vegetables or salad."
         ],
         "image": "/lemon-salmon.jpg",
         "description": "A light and flavorful salmon recipe with a hint of citrus.",
         "ingredients": [
-          "2 salmon fillets",
-          "Lemon juice",
-          "Garlic",
-          "Salt",
-          "Pepper"
+            "2 salmon fillets",
+            "Lemon juice",
+            "Garlic",
+            "Salt",
+            "Pepper"
         ],
         "cookingTime": "20 minutes"
-      }
-,   
-{
-    "id": "613b8b1c28a914001b7d28a8",
-    "title": "Chicken Alfredo Pasta",
-    "steps": [
-      "Cook pasta according to package instructions.",
-      "In a pan, sauté chicken pieces with garlic until cooked.",
-      "Add cream and grated cheese, and stir until the sauce thickens.",
-      "Mix the cooked pasta into the sauce.",
-      "Serve hot with parsley and extra cheese."
-    ],
-    "image": "/chicken-alfredo.jpg",
-    "description": "A creamy and delicious pasta dish with tender chicken.",
-    "ingredients": [
-      "200g pasta",
-      "200g chicken",
-      "1 cup cream",
-      "1/2 cup grated cheese",
-      "Garlic"
-    ],
-    "cookingTime": "30 minutes"
-  },  
+    }
+    ,
+    {
+        "id": "613b8b1c28a914001b7d28a8",
+        "title": "Chicken Alfredo Pasta",
+        "steps": [
+            "Cook pasta according to package instructions.",
+            "In a pan, sauté chicken pieces with garlic until cooked.",
+            "Add cream and grated cheese, and stir until the sauce thickens.",
+            "Mix the cooked pasta into the sauce.",
+            "Serve hot with parsley and extra cheese."
+        ],
+        "image": "/chicken-alfredo.jpg",
+        "description": "A creamy and delicious pasta dish with tender chicken.",
+        "ingredients": [
+            "200g pasta",
+            "200g chicken",
+            "1 cup cream",
+            "1/2 cup grated cheese",
+            "Garlic"
+        ],
+        "cookingTime": "30 minutes"
+    },
     {
         "id": "613b8b1c28a914001b7d28a3",
         "title": "Pan Cake",
