@@ -26,6 +26,27 @@ const recipe = [
     ,
 
     {
+        "id": "613b8b1c28a914001b7d28a2",
+        "title": "Grilled Chicken",
+        "steps": [
+            "Preheat the grill to medium-high heat.",
+            "Marinate chicken breasts with olive oil, salt, pepper, and your favorite herbs.",
+            "Place the chicken on the grill and cook for 5-7 minutes on each side.",
+            "Check that the chicken is fully cooked before removing it.",
+            "Serve with a side of vegetables or rice."
+        ],
+        "image": "/grilled-chicken.jpg",
+        "description": "A healthy and delicious grilled chicken recipe packed with flavor.",
+        "ingredients": [
+            "2 chicken breasts",
+            "2 tablespoons olive oil",
+            "Salt",
+            "Pepper",
+            "Mixed herbs"
+        ],
+        "cookingTime": "20 minutes"
+    },
+    {
         "id": "613b8b1c28a914001b7d28a1",
         "title": "Coffee",
         "steps": [
