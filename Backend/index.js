@@ -9,10 +9,10 @@ app.get('/', (req, res) => {
   res.send('Servers is ready');
 }); 
 app.get('/api/recipe', (req, res) => {
-  res.send(recipe)
+  res.json(recipe)
 });
 app.get('/api/surprise-recipe', (req, res) => {
-  res.send(surpriseRecipe)
+  res.json(surpriseRecipe)
 });
 app.get('/api/rec', (req, res) => {
     const searchQuery = req.query.search?.toLowerCase() || '';
