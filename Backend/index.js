@@ -28,7 +28,7 @@ app.get('/api/rec', (req, res) => {
   app.get('/api/recipe/surprise-me', (req, res) => {
     const { type } = req.query;
     const recipes = surpriseRecipe.filter((recipe) => recipe.type === type);
-    console.log(`length of ${type} is  ${recipes.length}`)
+    
     
     if (recipes.length === 0) {
       return res.status(404).send({ message: 'No recipes found for the selected type' });

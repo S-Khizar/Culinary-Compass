@@ -471,7 +471,7 @@ const recipe = [
         "title": "Haleem",
         "steps": [
             "Soak 1 cup of wheat, 1/2 cup of split chana dal, 1/2 cup of split masoor dal, and 1/2 cup of split urad dal overnight.",
-            "In a large pot, cook 500g of beef or mutton with 1 chopped onion, 1 tablespoon of ginger-garlic paste, 1 teaspoon of turmeric powder, and salt to taste until tender.",
+            "In a large pot, cook 500g of  mutton with 1 chopped onion, 1 tablespoon of ginger-garlic paste, 1 teaspoon of turmeric powder, and salt to taste until tender.",
             "Add the soaked grains and lentils to the meat along with 5 cups of water.",
             "Cook on low heat for 4-5 hours, stirring occasionally, until the grains are completely soft and the mixture is thickened.",
             "Blend the mixture to a smooth consistency using a hand blender.",
@@ -484,7 +484,7 @@ const recipe = [
             "1/2 cup chana dal",
             "1/2 cup masoor dal",
             "1/2 cup urad dal",
-            "500g beef or mutton",
+            "500g   mutton",
             "1 onion",
             "Ginger-garlic paste",
             "Turmeric powder",
@@ -528,16 +528,16 @@ const recipe = [
         "steps": [
             "Heat 1/2 cup of oil in a large pot and fry 2 sliced onions until golden brown.",
             "Add 1 tablespoon of ginger-garlic paste and cook for a minute.",
-            "Add 500g of beef shank and cook until browned on all sides.",
+            "Add 500g of mutton shank and cook until browned on all sides.",
             "Add 2 tablespoons of nihari masala, 1 tablespoon of red chili powder, 1 teaspoon of turmeric powder, and salt to taste.",
             "Pour in 4 cups of water, cover, and cook on low heat for 6-8 hours until the meat is tender and the gravy thickens.",
             "Dissolve 1 tablespoon of wheat flour in water to make a paste and stir into the gravy to thicken.",
             "Garnish with sliced ginger, green chilies, and lemon wedges before serving."
         ],
         "image": "/nihari.jpg",
-        "description": "A slow-cooked beef stew with a rich and spicy gravy, typically served for breakfast.",
+        "description": "A slow-cooked mutton stew with a rich and spicy gravy, typically served for breakfast.",
         "ingredients": [
-            "500g beef shank",
+            "500g mutton shank",
             "2 onions",
             "Ginger-garlic paste",
             "Nihari masala",
@@ -557,7 +557,7 @@ const recipe = [
         "id": "613b8b1c28a914001b7d28af",
         "title": "Seekh Kebabs",
         "steps": [
-            "In a large bowl, mix 500g of minced beef or lamb with 1 chopped onion, 1 tablespoon of ginger-garlic paste, 2 teaspoons of red chili powder, 1 teaspoon of garam masala, 1 teaspoon of cumin powder, and salt to taste.",
+            "In a large bowl, mix 500g of minced mutton or lamb with 1 chopped onion, 1 tablespoon of ginger-garlic paste, 2 teaspoons of red chili powder, 1 teaspoon of garam masala, 1 teaspoon of cumin powder, and salt to taste.",
             "Add a handful of chopped coriander leaves and mix well.",
             "Take small portions of the mixture and shape them onto skewers.",
             "Grill or barbecue the kebabs on medium heat for 10-15 minutes, turning occasionally, until cooked through and slightly charred.",
@@ -566,7 +566,7 @@ const recipe = [
         "image": "/seekh_kebab.jpg",
         "description": "Spicy and flavorful kebabs made from minced meat, grilled to perfection.",
         "ingredients": [
-            "500g minced beef or lamb",
+            "500g minced  lamb",
             "1 onion",
             "Ginger-garlic paste",
             "Red chili powder",

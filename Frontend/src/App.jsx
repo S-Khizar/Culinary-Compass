@@ -9,9 +9,6 @@ import RecipePage from './components/RecipePage'
 import axios from 'axios'
 import SurpriseMeRecipe from './components/SurpriseMeRecipe'
 
-
-
-
 const App = () => {
   const[recipe,setRecipes] = useState([]);
   const[surpriseRecipe,setSurpriseRecipe]=useState([]);
