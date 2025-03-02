@@ -22,7 +22,7 @@ const Recipe = ({recipes}) => {
               "bg-green-600",
             ][index];
             return(
-              <button className={`w-72 px-5 py-6 rounded-xl border-none text-xl font-semibold text-white  ${bgColor}`}  key={element}>{element}</button>
+              <button className={`w-72 px-5 py-6 rounded-xl border-none text-xl font-semibold text-white  ${bgColor}`  }  key={element}>{element}</button>
             )
           })
         }

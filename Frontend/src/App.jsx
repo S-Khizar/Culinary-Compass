@@ -8,6 +8,8 @@ import Footer from './components/Footer'
 import RecipePage from './components/RecipePage'
 import axios from 'axios'
 import SurpriseMeRecipe from './components/SurpriseMeRecipe'
+import Grocerystore from './components/Grocerystore'
+import GroceryDetails from './components/GroceryDetails'
 
 const App = () => {
   const[recipe,setRecipes] = useState([]);
@@ -44,6 +46,8 @@ const App = () => {
           <Route path='/recipes' element={<RecipePage  />}/>
           <Route path='/recipe/:id' element={<RecipeDetails recipes={recipe } surpriseRecipe={surpriseRecipe}/>}/>
           <Route path='/recipe/surprise-me' element={<SurpriseMeRecipe/>}/>
+          <Route path='/grocerystore' element={<Grocerystore/>}/>
+          <Route path='/grocerydetails/:id' element={<GroceryDetails/>}/>
 
         </Routes>
         <Footer/>

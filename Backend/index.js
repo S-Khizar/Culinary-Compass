@@ -2,12 +2,27 @@ import express from 'express'
 import cors from 'cors'
 import recipe from './recipe.js';
 import surpriseRecipe from './surpriseRecipe.js';
+import product from './product.js';
+
 
 const app = express();
 app.use(cors());
 app.get('/', (req, res) => {
   res.send('Servers is ready');
 }); 
+
+app.get('/api/product',(req,res)=>{
+  res.json(product);
+});
+
+
+app.get('/api/prod/product', (req, res) => {
+  const { category } = req.query;
+  const filteredProduct = product.filter((prod) => prod.category === category);
+  res.json(filteredProduct);
+});
+
+
 app.get('/api/recipe', (req, res) => {
   res.json(recipe)
 });
